@@ -43,6 +43,6 @@
 
        -  name: Push Docker Image to Amazon ECR
           run: |
-            docker tag my-app:latest 878678340129.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
+            docker tag app:latest 878678340129.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
             docker push 878678340129.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
                   
